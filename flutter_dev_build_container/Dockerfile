@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM openjdk:18-jdk-slim
 
 # --------- ENV + ARG Definitions ---------
 ENV ANDROID_SDK_ROOT=/usr/lib/android-sdk
